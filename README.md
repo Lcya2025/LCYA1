@@ -1,1 +1,94 @@
-# LCYA1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Wedding Photography</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f9f9f9;
+        }
+        
+        /* Header Styles */
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #333;
+        }
+        
+        .logo span {
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 3px;
+            margin-top: 5px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 40px;
+        }
+        
+        .nav-menu a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-menu a:hover {
+            color: #d4af37; /* Gold color for hover */
+        }
+        
+        /* Mobile menu toggle (hidden by default) */
+        .mobile-menu-toggle {
+            display: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo">
+            YOUR NAME
+            <span>WEDDING PHOTOGRAPHY</span>
+        </div>
+        
+        <nav class="nav-menu">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#locations">Locations</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <!-- Mobile menu toggle would go here -->
+    </header>
+    
+    <!-- Rest of your website content would go here -->
+</body>
+</html>
